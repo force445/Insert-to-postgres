@@ -79,5 +79,5 @@ class InsertData():
         cur.close()
         self.conn.close()
 
-insert = InsertData('192.168.11.29', 'iot_dev', 'postgres', '12345678')
+insert = InsertData('host', 'db_name', 'user', 'password')
 
